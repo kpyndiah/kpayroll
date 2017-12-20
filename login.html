@@ -1,0 +1,144 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Login Page</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="shortcut icon" type="image/png" href="icon.png"/>		
+        <style>
+			.submit{
+			background-color:green;
+			border-color:white;
+			color: white;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;  
+			}
+			.submit:hover{
+			background-color: #008CBA;
+			color: white;
+			}
+			.reset{
+			background-color:yellow;
+			border-color:white;
+			color: white;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;  
+			}
+			.reset:hover{
+			background-color: yellowgreen;
+			color: white;
+			}
+			.refresh{
+			background-color:blue;
+			border-color:white;
+			color: white;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;  
+			}
+			.refresh:hover{
+			background-color: black;
+			color: white;
+			}
+			.clear{
+			background-color:green;
+			border-color:white;
+			color: white;
+			padding: 5px 10px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;  
+			}
+			.clear:hover{
+			background-color: blue;
+			color: white;
+			}	
+
+			body{
+			background-color: #E3E6EE;
+			}
+			label {
+			float: left;
+			width: 150px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			-o-text-overflow: ellipsis;
+			}
+			textarea {
+			max-width: 100%;
+			}			
+			footer {
+			padding: 1em;
+			color: white;
+			background-color:#959394;
+			clear: left;
+			text-align: center;
+			}
+			.row{
+			padding-top: 10em;    
+			padding-bottom: 8.2em;     
+			}			
+			legend{
+			color: #2962FA;
+			font-family:  "Arial", Times, serif;    
+			font-size: 2.5em;  
+			}	
+			img {
+  			width: 100%;
+    		height: auto;
+			}	
+		</style>		 
+	</head>
+    <body>
+		<div class="container">
+			<section>
+				<div class="row">
+					<div class="col-md-6">
+						<img src = "images/Images/Login.jpg" alt="images/Error/im.png">					
+					</div>
+					<div class="col-md-6">
+						<p></p>
+						<form>
+							<fieldset>
+								<legend>KPayroll</legend>
+								<label>Server:</label>	
+								<select required>
+									<option value="server1">server1</option>
+									<option value="server2">server2</option>
+									<option value="server3">server3</option>
+									
+								</select><br><p></p>
+								<label>Database:</label>	
+								<select required>
+									<option value="kpayroll">kpayroll</option>
+									<option value="payroll">payroll</option>
+									<option value="test">test</option>
+									
+								</select><br><p></p>
+								<label>Username:</label> <input type="text" required placeholder="manager"><br> <p></p>
+							<label>Password: </label></lable><input type="password" required placeholder="1234"> <p></p>
+						<button type = "submit" name = "submit" class="submit"/> Submit </button>
+					<button type = "reset" name = "reset" class="reset"/> Reset </button>				
+				<button name = "refresh" class="refresh"/>Refresh</button>
+			<button name = "close" class="clear"/> Clear </button></fieldset>		
+	</form>
+	<textarea rows="5" cols="55" disabled>This application is the property of IT Solvz. It was developed for internal purpose.Any changes to be done on this application should have the prior permission of the author.This product is protected by copyright and distributed under licenses restricting copying, distribution and decompilation.
+	</textarea>	
+</div>	
+</div>
+</section>		
+</div>
+<section>
+	<footer>Copyright &copy; Elitesoft Group</footer>
+</section>
+</body>
+</html>
